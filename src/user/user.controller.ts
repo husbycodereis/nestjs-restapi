@@ -1,7 +1,7 @@
-import { Controller, Get, Patch, UseGuards } from '@nestjs/common';
+import { Controller, Get, UseGuards } from '@nestjs/common';
 import { User } from '@prisma/client';
-import { GetUser } from 'src/auth/decorator';
-import { JwtGuard } from 'src/auth/guard';
+import { GetUser } from '../auth/decorator';
+import { JwtGuard } from '../auth/guard';
 
 //using UseGuard before a class makes all of its requests be guarded by the auth method such as jwt
 //check guards for further info => https://docs.nestjs.com/guards
