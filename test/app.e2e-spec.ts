@@ -101,6 +101,7 @@ describe('App e2e', () => {
     });
   });
   describe('Bookmarks', () => {
+    describe('Get Empty Bookmarks', () => {});
     describe('Create Bookmark', () => {});
     describe('Get Bookmarks', () => {});
     describe('Get Bookmark by id', () => {});
